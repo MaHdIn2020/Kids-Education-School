@@ -193,6 +193,33 @@
     font-weight: 700;
     color: rgb(135, 0, 255);
 }
+.scrolling{
+    margin-top: 50px;
+    justify-content: center;
+    height: 60px;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+.arrow{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: Orange;
+    text-align: center;
+}
+.arrow span{
+    text-align: center;
+    display: inline-block;
+    height: 60px;
+    margin-top: 15px;
+    font-weight: 900;
+    font-size: 1.25rem;
+    color: white;
+}
+
 /* Responsive Design */
 @media screen and (max-width:576px) {
     /* Navbar */
@@ -265,6 +292,9 @@
     }
     .division-3{
         max-width: 300px;
+    }
+    .scrolling{
+        display: none;
     }
 }
 
