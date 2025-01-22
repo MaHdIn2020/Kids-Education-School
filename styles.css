@@ -26,6 +26,9 @@
 }
 
 /* Navbar */
+.line{
+    display: none;
+}
 .navigation-bar{
     justify-content: space-between;
     align-items: center;
@@ -512,6 +515,8 @@
     /* Navbar */
     .navigation-bar{
         display: flex;
+        padding: 5px;
+
     }
     .display-flex{
         flex-wrap: nowrap;
@@ -537,6 +542,9 @@
     }
 
     /* Hero Section */
+    main{
+        border-top:1px solid black ;
+    }
     .hero{
         display: flex;
         flex-direction: column;
