@@ -1,9 +1,18 @@
 /* Font Quicksand */
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Pirata+One&family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Pirata+One&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* Shared styles */
 .quicksand-font {
   font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+.raleway-font {
+  font-family: "Raleway", serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
@@ -241,7 +250,190 @@
     font-size: 1.25rem;
     color: white;
 }
+/* Stories */
+.stories{
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 100px;
+}
+.stories-section{
+    width: 100%;
+    height: 1018.02px;
+    text-align: center;
+    background: url(assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    margin-bottom: 20px;
+}
+.story-title{
+    font-weight: 700;
+    font-size: 2.8rem;
+}
+.story-1{
+    width: 540px;
+    height: 630px;
+    margin-bottom: 10px;
+}
+.story-image{
+    background-image: url(assets/story-1.png);
 
+    width: 100%;
+    height: 50%;
+    border-radius: 16px 16px 0px 0px;
+
+}
+.story-description{
+    background: rgb(255, 255, 255);
+    border-radius:  0px 0px 16px 16px;
+    width: 100%;
+    height: 50%;
+}
+.story-heading{
+    font-weight: 700;
+    font-size: 1.5rem;
+    width: 402.49px;
+    height: 69.98px;
+    margin-left: 38.35px;
+}
+.date{
+    border-radius: 47.93px;
+    background: rgb(60, 216, 232);
+    border: 1px solid rgb(60, 216, 232);
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+    position: relative;
+    padding: 10px;
+    bottom: 23px;
+    right: 130px;
+}
+.story-paragraph{
+    width: 433.06px;
+    height: 75.74px;
+    font-weight: 500;
+    font-size: 0.9rem;
+    text-align: left;
+    margin-left: 38.35px;
+}
+.story-2{
+    width: 540px;
+    height: 630px;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.story-2-1{
+
+    width: 258px;
+    height: 308px;
+    border-radius: 16px;
+    margin-right: 10px;
+    background: white;
+}
+.story-2-2{
+
+    width: 258px;
+    height: 308px;
+
+    border-radius: 16px;
+    background: white;
+}
+.story-2-3{
+
+    width: 258px;
+    height: 308px;
+    
+    border-radius: 16px;
+    background: white;
+
+}
+.story-2-4{
+
+    width: 258px;
+    height: 308px;
+    border-radius: 16px;
+    background: white;
+
+}
+.story-2-1-image{
+    width: 100%;
+    height: 50%;
+    border-radius: 16px 16px 0px 0px;
+    background-image: url(assets/story-2.png);
+}
+.story-2-2-image{
+    width: 100%;
+    height: 50%;
+    border-radius: 16px 16px 0px 0px;
+    background-image: url(assets/story-3.png);
+}
+.story-2-3-image{
+    width: 100%;
+    height: 50%;
+    border-radius: 16px 16px 0px 0px;
+    background-image: url(assets/story-4.png);
+}
+.story-2-4-image{
+    width: 100%;
+    height: 50%;
+    border-radius: 16px 16px 0px 0px;
+    background-image: url(assets/story-5.png);
+}
+.date-2-1{
+    border-radius: 47.93px;
+    background: rgb(149, 178, 38);
+    font-size: 1.0rem;
+    color: white;
+    padding: 8px;
+    position: relative;
+    top: -25px;
+    right: 20px;
+    border: 1px solid rgb(149, 178, 38) ;
+}
+.date-2-2{
+    border-radius: 47.93px;
+    background: rgb(93, 88, 240);
+    font-size: 1.0rem;
+    color: white;
+    padding: 8px;
+    position: relative;
+    top: -25px;
+    right: 20px;
+    border: 1px solid rgb(93, 88, 240) ;
+}
+.date-2-3{
+    border-radius: 47.93px;
+    background: rgb(149, 178, 38);
+    font-size: 1.0rem;
+    color: white;
+    padding: 8px;
+    position: relative;
+    top: -25px;
+    right: 20px;
+    border: 1px solid rgb(149, 178, 38) ;
+}
+.date-2-4{
+    border-radius: 47.93px;
+    background: rgb(149, 178, 38);
+    font-size: 1.0rem;
+    color: white;
+    padding: 8px;
+    position: relative;
+    top: -25px;
+    right: 20px;
+    border: 1px solid rgb(149, 178, 38) ;
+}
+.story-2-heading{
+    width: 198.04px;
+    height: 47.93px;
+    font-weight: 700;
+    font-size: 0.9rem;
+    margin-top: 0px;
+    margin-left: 30px;
+    text-align: left;
+}
+.marquee{
+    width: 60%;
+    height: 100px;
+    font-weight: 700;
+    font-size: 2.8rem;
+}
 /* Responsive Design */
 @media screen and (max-width:576px) {
     /* Navbar */
@@ -325,5 +517,92 @@
     .scrolling{
         display: none;
     }
+    /* Stories */
+    .story-1{
+        display: none;
+    }
+    .story-2{
+        width: 350px;
+        height: 400px;
+        column-gap: 0px;
+    }
+    .story-2-1{
+        width: 173px;
+        height: 180px;
+        border-radius: 16px;
+        margin-right: 10px;
+        background: white;
+    }
+    .story-2-2{
+        width: 173px;
+        height: 180px;
+        border-radius: 16px;
+        background: white;
+    }
+    .story-2-3{
+        width: 173px;
+        height: 180px;
+        border-radius: 16px;
+        background: white;
+    }
+    .story-2-4{
+        width: 173px;
+        height: 180px;
+        border-radius: 16px;
+        background: white;
+    }
+    .story-2-1-image{
+        background-size: cover;
+    }
+    .story-2-2-image{
+        background-size: cover;
+    }
+    .story-2-3-image{
+        background-size: cover;
+    }
+    .story-2-4-image{
+        background-size: cover;
+    }
+    .date-2-1{
+        border-radius: 28.54px;
+        width: 103.91px;
+        height: 22.83px;
+        font-size: 0.5rem;
+        top: -15px;
+        padding-bottom: 18px;
+    }
+    .date-2-2{
+        border-radius: 28.54px;
+        width: 103.91px;
+        height: 22.83px;
+        font-size: 0.5rem;
+        top: -15px;
+        padding-bottom: 18px;
+    }
+    .date-2-3{
+        border-radius: 28.54px;
+        width: 103.91px;
+        height: 22.83px;
+        font-size: 0.5rem;
+        top: -15px;
+        padding-bottom: 18px;
+    }
+    .date-2-4{
+        border-radius: 28.54px;
+        width: 103.91px;
+        height: 22.83px;
+        font-size: 0.5rem;
+        top: -15px;
+        padding-bottom: 18px;
+    }
+    .story-2-heading{
+        width: 113.54px;
+        height: 28.54px;        
+        font-weight: 700;
+        font-size: 0.7rem;
+        margin-left: 20px;
+        text-align: left;
+    }
+
 }
 
