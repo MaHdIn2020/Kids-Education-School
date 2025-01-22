@@ -261,7 +261,7 @@
     height: 1018.02px;
     text-align: center;
     background: url(assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
-    margin-bottom: 20px;
+    
 }
 .story-title{
     font-weight: 700;
@@ -434,6 +434,79 @@
     font-weight: 700;
     font-size: 2.8rem;
 }
+
+/* Footer */
+
+.footer{
+    width: 100%;
+    height: 519px;
+    background: rgb(1, 172, 253);
+    align-items: center;
+    justify-content: center;
+}
+.footer-logo{
+    padding-top: 80px;
+    align-items: center;
+}
+.footer-logo img{
+    width: 82.9px;
+    height: 81.65px;
+}
+.logo-header{
+    width: 206.11px;
+    height: 80px;
+    font-weight: 700;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+}
+.footer-description{
+    width: 399.02px;
+    height: 100px;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: white;
+
+}
+.about-header{
+    font-size: 1.25rem;
+    font-weight: 700;
+    width: 156.36px;
+    height: 30px;
+    color: white;
+    padding-top: 110px;
+}
+.about-details{
+    list-style: none;
+}
+.link-header{
+    width: 177.12px;
+    height: 26px;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: white;
+    padding-top: 100px;
+}
+.about-header-2{
+    width: 57.87px;
+    height: 25px;
+    color: white;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+.about-footer{
+    width: 25%;
+    height: 400px;
+    justify-content: center;
+}
+.about-school{
+    width: 20%;
+    height: 400px;
+    
+}
+.connections{
+    width: 25%;
+    height: 400px;
+}
 /* Responsive Design */
 @media screen and (max-width:576px) {
     /* Navbar */
@@ -496,6 +569,7 @@
         font-size: 0.9rem;
         width: 110px;
         height: 38px;
+        margin-bottom: 40px;
     }
 
     /* Curriculum */
@@ -518,6 +592,10 @@
         display: none;
     }
     /* Stories */
+    .stories-section{
+        width: 100%;
+        height: auto;
+    }
     .story-1{
         display: none;
     }
@@ -602,6 +680,28 @@
         font-size: 0.7rem;
         margin-left: 20px;
         text-align: left;
+    }
+    /* Footer */
+    .footer{
+        flex-direction: column;
+        height: auto;
+        align-items: self-start;
+    }
+    .footer-description{
+        width: 350px;
+
+    }
+    .about-footer{
+        margin-left: 40px;
+    }
+    .about-school{
+        margin-left: 50px;
+    }
+    .links{
+        width: 200%;
+    }
+    .connections{
+        margin-left: 50px;
     }
 
 }
