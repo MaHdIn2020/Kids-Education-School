@@ -711,6 +711,9 @@
     .connections{
         margin-left: 50px;
     }
+    .marquee{
+        display: none;
+    }
 
 }
 
